@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+ion-icon{
+    font-size: 30px;
+}
+#notas{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#notas article{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#notas article h3{
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 5px 15px;
+}
